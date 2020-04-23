@@ -1,7 +1,5 @@
 parameters:
-- name: buildConfig
-  type: string
-  default: 'Release'
+- buildConfig: 'Release'
 
 steps:
 - task: DotNetCoreCLI@2
